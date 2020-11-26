@@ -57,7 +57,7 @@ int  find(int stageno, int singernum) //for acoustic stages
     {
         if(musician_thread[i]->singer==0 && musician_thread[i]->status==1 && stageno==musician_thread[i]->sem_no && musician_thread[i]->stage==0)      //shouldnt be singer , a  musician should be performing at this stage //performs solo
             return i;
-        else if(musician_thread[200-i]->singer==0 && musician_thread[200-i]->status==1 && stageno==musician_thread[i]->sem_no)
+        else if(musician_thread[200-i]->singer==0 && musician_thread[200-i]->status==1 && stageno==musician_thread[200-i]->sem_no)
             return 200-i;    
         i++ ;   
     }
@@ -70,7 +70,7 @@ int  finde(int stageno, int singernum) // for electric stages
     {
         if(musician_thread[i]->singer==0 && musician_thread[i]->status==1 && stageno==musician_thread[i]->sem_no && musician_thread[i]->stage==1)      //shouldnt be singer , a  musician should be performing at this stage //performs solo
             return i;
-        else if(musician_thread[200-i]->singer==0 && musician_thread[200-i]->status==1 && stageno==musician_thread[i]->sem_no)
+        else if(musician_thread[200-i]->singer==0 && musician_thread[200-i]->status==1 && stageno==musician_thread[200-i]->sem_no)
             return 200-i;    
         i++ ;   
     }
