@@ -1,4 +1,4 @@
-# multithreading
+# concurrency
 VACCINE DISTRIBUTION 
 
 q2 is implemented using threads and mutex locks.
