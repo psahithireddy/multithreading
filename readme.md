@@ -1,3 +1,4 @@
+TO COMPILE & RUN: gcc q2.c -pthread ; ./a.out
 All the zones , students and companies are threads.
 each struct[i] corresponds to data  by thread[i]. (for all  i in valid range)
 
