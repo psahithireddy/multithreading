@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <string.h>
-#include <unistd.h>        //there were exactly 4 changes , 2 of them were syntax problems , 2 were obvious 
+#include <unistd.h>        
 #include <wait.h>
 #include <sys/shm.h>
 #include <semaphore.h>
