@@ -10,3 +10,5 @@ STAGE ALLOCATION
 Q3 is implemented using semaphores and mutex locks.
 
 Program that allocates acoustic and electric stages to singers and musicians who play different instruments and also distributes t-shirts as  pay. 
+
+Go through respective markdown files for further explanation.
